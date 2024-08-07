@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #757f9a, #d7dde8);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.container {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 5px 5px 8px 4px;
+  transition: 0.3s;
+}
+.container:hover {
+  box-shadow: rgba(0, 0, 0, 0.6) 5px 5px 10px 4px;
+}
+.currency-convert {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  padding: 20px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-bottom: 5px;
+  user-select: none;
+}
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.box {
+  background-image: url("./assets/currency-convert.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 350px;
+  background-position: center;
+  border-radius: 5px 5px 0 0;
+}
+select {
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  user-select: none;
+  border: 1px solid silver;
+  font-size: 14px;
+}
+h1{
+  margin-bottom: 20px;
+}
+.output{
+  height: 35px;
+  width: 300px;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
+  background-color: #005D54;
+  /* color: #3EB489; */
+  color: white;
+}
+span{
+  font-size: 12px;
+}
