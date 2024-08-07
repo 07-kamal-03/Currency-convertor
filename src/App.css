@@ -55,13 +55,13 @@ label {
   font-weight: 500;
   left: 12px;
   top: -8px;
-  outline: none;
 }
 input {
   padding: 10px;
   margin-bottom: 20px;
   border-radius: 5px;
   border: 1px solid #ccc;
+  outline: none;
 }
 .box {
   background-image: url("./assets/currency-convert.jpg");
